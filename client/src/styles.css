@@ -1,0 +1,271 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-image: linear-gradient(to right, #6c00f9, #FFD54F);
+    background-repeat: no-repeat;
+    /* #D500F9 */
+}
+
+input,
+textarea {
+    background-color: #F3E5F5;
+    border-radius: 50px !important;
+    padding: 12px 15px 12px 15px !important;
+    width: 100%;
+    box-sizing: border-box;
+    border: none !important;
+    border: 1px solid #F3E5F5 !important;
+    font-size: 16px !important;
+    color: #000 !important;
+    font-weight: 400
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #D500F9 !important;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.card {
+    border-radius: 0;
+    border: none
+}
+
+.card1 {
+    width: 50%;
+    padding: 40px 30px 10px 30px
+}
+
+.card2 {
+    width: 50%;
+    background: url("https://images.hdqwalls.com/download/ducati-neon-4k-nh-720x1280.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#logo {
+    width: 120px;
+    height: 60px
+}
+
+.heading {
+    margin-bottom: 60px !important
+}
+
+::placeholder {
+    color: #000 !important;
+    opacity: 1
+}
+
+:-ms-input-placeholder {
+    color: #000 !important
+}
+
+::-ms-input-placeholder {
+    color: #000 !important
+}
+
+.form-control-label {
+    font-size: 12px;
+    margin-left: 15px
+}
+
+.msg-info {
+    padding-left: 15px;
+    margin-bottom: 30px
+}
+
+.btn-color {
+    border-radius: 50px;
+    color: #fff;
+    background-color: #bbb9ba;
+    padding: 15px;
+    cursor: pointer;
+    border: none !important;
+    margin-top: 40px
+}
+
+.btn-white {
+    width: 80px !important;
+    border-radius: 5px !important;
+    margin: 30px 0;
+    color: #D500F9;
+    background-color: #fff;
+    padding: 5px 10px !important;
+    cursor: pointer;
+    border: 2px solid #D500F9 !important
+}
+
+.btn-white:hover {
+    color: #fff;
+    background-color: #fe0aa7;
+}
+
+a {
+    color: #000
+}
+
+a:hover {
+    color: #000
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 50px !important
+}
+
+.sm-text {
+    font-size: 15px
+}
+
+.code-group{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+.level{
+    display: flex;
+}
+#nonl3-btn{
+    text-align: center;
+}
+#l3, #non-l3{
+    width: 50%;
+    background-color: white;
+    border: 1px solid gray;
+    text-align: center;
+}
+#l3check, #nonl3check{
+    display: none !important;
+}
+
+.level input:checked + label{
+    border: 2px solid darkmagenta !important;
+}
+
+#nonl3-otp{
+    width: 100%;
+    padding: 0 50px !important;
+}
+
+
+#tel-code{
+    width: 60px;
+    padding: 5px;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    position: absolute;
+}
+#mobile{
+    padding-left: 70px !important;
+}
+
+.mark{
+    position: absolute;
+    margin-top: 39px;
+    right: 2rem;
+    background-color: transparent !important;
+}
+
+#correct1, #correct2{
+    display: none;
+    color: chartreuse;
+}
+
+#wrong1, #wrong2{
+    display: none;
+    color: red;
+}
+
+#error{
+    font-size: 12px;
+    background-color: #ff81819f;
+    border: 2px solid #ff3131d7;
+    color: rgb(190, 17, 17);
+}
+
+
+
+.box {
+    display: inline-block;
+  }
+  
+.progress {
+    width: 35px !important;
+    height: 35px !important;
+    margin: 32px 0 0 10px;
+    background-color: transparent !important;
+}
+
+#timer{
+    width: 35px !important;
+    height: 35px !important;
+    position: absolute;
+    color: #666464;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 7px 0 0 0;
+}
+
+.inner {
+    display: flex;
+}
+
+
+@media screen and (max-width: 992px) {
+    .card1 {
+        width: 100%;
+        padding: 40px 30px 10px 30px;
+    }
+
+    .card2 {
+        display: none !important;
+    }
+
+    .right {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+    .mark{
+        background-color: transparent !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px !important;
+    }
+
+    .card1{
+        padding: 40px 10px 10px 10px;
+    }
+
+    .res-card{
+        padding: 0 !important;
+    }
+
+    #nonl3-otp {
+        padding: 0 30px !important;
+    }
+
+    .right {
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+    .mark{
+        background-color: transparent !important;
+    }
+}
+
+
+
+
+.test{
+    background-color: red !important;
+}
