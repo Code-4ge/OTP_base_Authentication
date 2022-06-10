@@ -165,7 +165,7 @@ export class FormComponent implements OnInit {
           console.log(data.msg);
 					if(data.msg == 'correct otp')
 					{
-						window.open('https://agni.bajajauto.co.in:8882', '_self');
+						window.open('dashboard', '_self');
 					}
 					else{
 						this.error = true;
