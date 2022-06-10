@@ -121,7 +121,7 @@ app.post("/api/sendcode", (req, res)=>{
                     
                     async function message(){
                         var phone = '+91'+mobile;
-                        request(`http://digimate.airtel.in:15080/BULK_API/SendMessage?loginID=bajaj_htuser&password=bajaj@123&senderid=BAJAUT&DLT_TM_ID=1001096933494158&DLT_CT_ID=1107163091013020265&DLT_PE_ID=1101635620000025441&route_id=DLT_SERVICE_IMPLICT&Unicode=0&camp_name=bajaj_htuser&mobile=${phone}&text=Dear ${result[0].Name}, ${code} is the otp for logging into Ekam, valid for 5:00 min - Bajaj Auto Ltd.`, { json: true }, (err, res, body)=>{
+                        request(`<YOUR SMS SERVICE PROVIDER / GATEWAY ADDRESS>`, { json: true }, (err, res, body)=>{
                             if(err)
                                 console.log(err);
                             else{
